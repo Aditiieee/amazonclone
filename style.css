@@ -8,4 +8,34 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url('amazon_logo.png');
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-icon{
+    display: flex;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    padding-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    padding-left: 3px;
 }
